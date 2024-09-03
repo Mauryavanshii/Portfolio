@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+} 
+.logo{
+    color:rgb(98, 241, 193);
+    font-weight: bolder;
+    text-shadow:5px 10px 5px rgb(98, 241, 193);
+    font-size: 30px;
+    /* margin: auto; */
+    text-align: center;
+    position: relative;
+    height: 80px;
+    /* margin-bottom: -100px; */
+    /* margin-top: 40px; */
+    }
+    .text{
+        color: white;
+        position: relative;
+        /* margin: 500px; */
+        margin-top: 100px;
+    }
+    .hello{
+        margin-top: 500px;
+        
+    }
+    .naam{
+        font-size: 25px;
+        font: bold;
+    }
+    .reaches a{
+        /* margin: 30px; */
+        color: rgb(98, 241, 193) ;
+        width: 30px;
+        font: 700;
+        font-size: x-large;
+        margin: 30px;
+        pointer-events: auto;
+        margin-top: 50px;
+    }
+    .reaches{
+        display: grid;
+     grid-template-columns: 25% 25% 25% 25%;
+     grid-template-rows:1fr;
+    }
+    .reaches a:hover{
+       box-shadow: 0 0 20px rgb(98, 241, 193);
+       
+    }
+  
+    .main{
+        /* display: flex; */
+        /* justify-content: center; */
+        /* flex-direction: row; */
+        /* position: relative; */
+        /* justify-content: space-evenly; */
+        justify-content: space-around;
+        
+            pointer-events: none;
+            width: 100%;
+            position: relative;
+            background-color:transparent;
+            display: flex;
+           /* justify-content: space-between; */
+           height: 85vh;
+           box-shadow: 0 0 40px  rgb(98, 241, 193);
+        
+    }
+    /* .picbox{
+        position: relative;
+        height: 400px;
+        width: 400px;
+    } */
+
+    .pic{
+        height: 350px;
+        width: 400px;
+        position: relative;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    .moreabout{
+        font-size: large;
+        border: none;
+        font-weight: 900;
+        background-color: rgb(98, 241, 193);
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        padding: 9px 120px 9px 120px;
+        pointer-events:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .download{
+        color: black;
+        font-weight: bolder;
+        pointer-events: auto;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgb(98, 241, 193) ;
+        padding: 10px 100px 10px 100px;
+        margin-top: 500px;
+        width: 190px;
+        text-align: center;
+        border-radius: 10px;
+        /* margin: 30px; */
+    }
+    .main1{
+        position: relative;
+        width: 100%;
+        background-color:transparent;
+        box-shadow: inset 0 0 20px rgb(152, 239, 210);
+        padding: 20px;
+        background-color: black;
+    } 
+    .texts{
+        width: 100%;
+    }
+    .text1{
+        padding: 20px;
+    }
+    .text1 h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+    }
+    .text1 p{
+        /* box-shadow:inset    0px 0 20px rgb(140, 232, 201); */
+        margin-top: 10px;
+           color: rgb(140, 232, 201);
+           padding: 10px;
+           text-align: center;
+           font-size: 18px;
+
+    }
+
+    .text3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1 fr;
+        }
+
+        .text3 .skill{
+            grid-column-start: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .text3 div{
+        box-shadow:inset    0px 0 20px rgb(140, 232, 201);
+        margin-top: 10px;
+           color: rgb(140, 232, 201);
+           padding: 10px;
+       }
+
+       li{
+        list-style: none;
+       
+       
+        margin-top: 10px;
+       }
+       .box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background: #000;
+        color: white;
+       }
+       .box1{
+        display: flex;
+        flex-direction: column;
+    margin-left: 200px;
+       }
+       .project video{
+        height: 350px;
+        width: 400px;
+        /* margin-left: 80px; */
+       }
+       .project{
+        margin-left: 100px;
+       }
+       .tvcontainer video{
+        height: 350px;
+        width: 400px;
+        /* margin-top: 10px; */
+
+       }
+       center{
+        font-weight: bold;
+        font-size: 30px;
+        color:rgb(80, 241, 187); ;
+        margin-top: 30px;
+    }
+    .tech{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        font-size:larger ;
+        color:rgb(80, 241, 187);
+    }
+    .tecdet ul{
+        display: flex;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    } 
+    .tecdet li{
+        color: white;
+        border: 2px solid rgb(80, 241, 187);
+        margin: 5px;
+        padding: 5px;
+        border-radius:45%;
+        box-shadow: inset 0 0 25px rgb(84, 198, 160);
+    }
+    .project-container h{
+        font-size: 25px;
+        font: bold;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin: auto;
+        /* display: flex; */
+        /* align-items: center; */
+
+    }
+
+    @media(max-width:600px){
+        .background-box {
+            display: none;
+        }
+        header{
+            padding: 10px ;  
+        }
+        .naam{
+            font-size:x-large;
+            font-weight: bold;
+        }
+        .main{
+          display: flex;
+          flex-direction: column-reverse;
+    }
+        .reaches a{
+            font-size: large;
+            margin: 10px;
+            pointer-events: auto;
+        }
+        .mypicbox{
+            margin-top: 50px;
+            width: 100%;
+            height: 40%;
+            
+        }
+        .mypic{
+            width: 40vw;
+            padding: 0;
+            /* border: none; */
+        }
+        .text{
+            width: 100%;
+            height: 50%;
+        }
+        .project{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows:1fr 1fr ;
+        }
+        .main{
+            pointer-events: auto;
+            background-color: black;
+             }
+    }
+  
+
+      
+
+      
+      
+       
+    
